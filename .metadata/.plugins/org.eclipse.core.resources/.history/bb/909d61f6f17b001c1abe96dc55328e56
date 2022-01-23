@@ -1,0 +1,12 @@
+package Study;
+
+public class StrLenghth {
+
+	public static void main(String[] args) {
+		//System.out.println("Siddharth");
+		String name = new String("Siddharth");
+		System.out.println(name);
+		
+	}
+
+}

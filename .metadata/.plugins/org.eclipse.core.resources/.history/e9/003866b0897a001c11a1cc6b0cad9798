@@ -1,0 +1,33 @@
+package study;
+
+import java.util.Scanner;
+
+public class MessageFromUser {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		//Question.3 - take name from user  and greet with reply
+
+		//		System.out.println("Enter your name : ");
+		//		
+		//		String str = sc.next();
+		//		
+		//		System.out.println("Hello"  +"  " +str+ ", "  + " Have a good day "  );
+		
+		
+		
+		//Question convert kilometers to miles
+
+		System.out.println("Enter kilometers : ");
+		
+		double fl = sc.nextFloat();
+		
+		double  miles  = fl * 1.6;
+		
+		System.out.println(" Value from kilometers to miles is : " +miles);
+
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package Study;
+
+import java.awt.geom.NoninvertibleTransformException;
+
+public class StrLenghth {
+
+	public static void main(String[] args) {
+		//System.out.println("Siddharth");
+		//String name = new String("Siddharth");
+		//String name = "Siddharth";
+		//System.out.println(name);
+		//int value = name.length();
+		//System.out.println(value); 
+		
+		//String lstring= name.toLowerCase();
+		//System.out.println(lstring);
+		
+		
+		//String ustring = name.toUpperCase();
+		//System.out.println(ustring);
+		
+		String nontrimmedstring = "  Harry  ";
+		System.out.println(nontrimmedstring);
+		
+		
+	}
+
+}
